@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+@theme {
+  --color-edef: #EDEFEF;
+  --color-edef-text: #EDEFEF;
+}
+
+:root[data-theme="dark"] {
+  --color-edef: #2E2E2E;
+}
